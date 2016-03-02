@@ -19,7 +19,7 @@ int main()
     mpz_init (fn);
     mpz_init (fn_1);
     mpz_init_set_ui (fn_2 ,1);
-    mpz_init_set_ui (iterations, 1);
+    mpz_init (iterations);
     mpz_init (limit);
 
 	  printf("How many fibonacci numbers to print? ");
